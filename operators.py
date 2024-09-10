@@ -13,19 +13,25 @@ def task_1():
     x = 10
     y = 10
 
-    return x == y # Edit only this line
+    return x != y # Edit only this line
 
 # 2.
 def task_2():
     data = input("Enter something: ")
-    return type(data) == int
+    return type(data) == str
 
 #3.
 def task_3(): # Store your completed string in a variable called message
     message = None
 
-    # Write your code here
+    name = input("what is your name: ")
+    age = input("how old are you: ")
+    print("Hello, your name is", name, "and you are", age, "years old!")
 
     # -------------------#
 
     return message
+
+print(task_1())
+print(task_2())
+print(task_3())
