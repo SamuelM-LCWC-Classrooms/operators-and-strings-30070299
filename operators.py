@@ -26,7 +26,7 @@ def task_3(): # Store your completed string in a variable called message
 
     name = input("what is your name: ")
     age = input("how old are you: ")
-    print("Hello, your name is", name, "and you are", age, "years old!")
+    message = "Hello, your name is", name, "and you are", age, "years old!"
 
     # -------------------#
 
